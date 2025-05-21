@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick & Mortar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="nav">
+        <div class="socials">
+            <a href="https://www.facebook.com/profile.php?id=100069447891074" target="_blank"><i class='bx bxl-facebook-circle bx-md bxh'></i></a>
+            <i class='bx bxl-instagram bx-md bxh' ></i>
+            <i class='bx bxl-twitter bx-md bxh' ></i>
+        </div>
+        <div class="logo">
+            <h2>Inkhwali</h2>
+            <a href="home.html"><img src="img/logo.png" alt=""></a>
+            <h2>Yenkosi</h2>
+        </div>
+        <div class="hamburger">
+            <div class="mobile">
+                <i class='bx bx-menu-alt-right bx-md bxh' id="bar" onclick="openMenu()"></i>
+                <i class='bx bx-shopping-bag bx-md bxh cart-icon' id="bag" onclick="openCart()"><p class="cart-count">0</p></i>
+            </div>
+            <ul class="navbar" id="nav">
+                <i id="close" class='bx bx-chevron-left-square' onclick="closeMenu()"></i>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About the leather</a></li>
+                <li><a href="diy.html">DIY Methods</a></li>
+                <li><a href="b&m.html">Brick & Mortar</a></li>
+                <li><a href="shopnow.html">Shop Now</a></li>
+            </ul>
+            <ul class="cart" id="nav-cart">
+                <h2 class="cart-title">Cart Items</h2>
+                <div class="cart-content">
+                    <p id="empty-cart">Your cart is empty.</p>
+                </div>
+                <div class="total">
+                    <p class="total-title">Total</p>
+                    <span class="total-price">R0.00</span>
+                </div>
+                <div class="cart-btn">
+                    <a href="checkout.html"><button>Checkout</button></a>
+                </div>
+                <i class='bx bx-x bx-md' onclick="closeCart()" id="cart-close"></i>
+            </ul>
+        </div>
+    </section>
+    <div class="info">
+        <div class="all-info" id="info-all">
+            <section class="pg-hd-bm">
+                <h2>#Brick & Mortar</h2>
+                <p>Our Brick & Mortar store offers a unique shopping experience where you can interact with our knowledgeable staff who are passionate about fashion.</p>
+            </section>
+            <section class="bm">
+                <div class="bm-box">
+                    <div class="bm-img">
+                        <img src="/img/b&m/b&m1.jpeg" alt="">
+                    </div>
+                    <div class="bm-details">
+                        <h4>Unleash Your Style</h4>
+                        <p>Whether you're looking for a statement piece to elevate your wardrobe or want to experiment with the latest fashion trends, our store is the perfect destination. Try on different outfits, mix and match pieces, and discover your own signature style.</p>
+                        <a href="">CONTINUE READING</a>
+                    </div>
+                </div>
+                <div class="bm-box">
+                    <div class="bm-img">
+                        <img src="/img/b&m/b&m2.jpg" alt="">
+                    </div>
+                    <div class="bm-details">
+                        <h4>Stay Connected</h4>
+                        <p>Don't miss out on the latest updates, promotions, and exclusive offers. Follow us on social media and be part of our vibrant community. Join the conversation, share your favorite looks, and stay inspired by connecting with us online.</p>
+                        <a href="">CONTINUE READING</a>
+                    </div>
+                </div>
+                <div class="bm-box">
+                    <div class="bm-img">
+                        <img src="/img/b&m/b&m3.jpg" alt="">
+                    </div>
+                    <div class="bm-details">
+                        <h4>Unleash Your Style</h4>
+                        <p>Whether you're looking for a statement piece to elevate your wardrobe or want to experiment with the latest fashion trends, our store is the perfect destination. Try on different outfits, mix and match pieces, and discover your own signature style.</p>
+                        <a href="">CONTINUE READING</a>
+                    </div>
+                </div>
+                <div class="bm-box">
+                    <div class="bm-img">
+                        <img src="/img/b&m/b&m4.jpg" alt="">
+                    </div>
+                    <div class="bm-details">
+                        <h4>Immerse Yourself</h4>
+                        <p>Our Brick & Mortar store offers a unique shopping experience where you can interact with our knowledgeable staff who are passionate about fashion. They are here to assist you, provide personalized styling advice, and help you find the perfect outfit for any occasion.</p>
+                        <a href="">CONTINUE READING</a>
+                    </div>
+                </div>
+            </section>
+            <section class="pg-switch" id="section-p1">
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href=""><i class='bx bx-arrow-back bx-rotate-180' ></i></a>
+            </section>
+            <section class="newsletter section-m1" id="section-p1">
+                <div class="newstext">
+                    <h4>Sign up for Newsletter</h4>
+                    <p>Get E-mail updates about our latest shop and <span>special Offers</span></p>
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Your email address">
+                    <button class="normal">Sign Up</button>
+                </div>
+            </section>
+            <footer id="section-p1">
+                <div class="col">
+                    <img class="logo" src="img/logo.png" alt="logo">
+                    <h4>Contact</h4>
+                    <p><strong>Address:</strong> 4 Melkhout street, Delft South, Cape Town, 7100</p>
+                    <p><strong>Phone: </strong>+27 76 585 6217</p>
+                    <p><strong>Hours: </strong> 09:00 - 19:00 Mon-Sat</p>
+                    <div class="follow">
+                        <h4>Follow Us</h4>
+                        <div class="icons">
+                            <i class='bx bxl-facebook-circle bx-sm'></i>
+                            <i class='bx bxl-instagram bx-sm' ></i>
+                            <i class='bx bxl-twitter bx-sm' ></i>
+                            <i class='bx bxl-pinterest bx-sm' ></i>
+                            <i class='bx bxl-youtube bx-sm' ></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4>Inkhwali Yenkosi</h4>
+                    <a href="">Home</a>
+                    <a href="">About the leather</a>
+                    <a href="">DIY Methods</a>
+                    <a href="">Brick & Mortar</a>
+                    <a href="">Shop Now</a>
+                </div>
+                <div class="col">
+                    <h4>My Account</h4>
+                    <a href="">Sign In</a>
+                    <a href="">View Cart</a>
+                    <a href="">My Wishlist</a>
+                    <a href="">Track My Order</a>
+                    <a href="">Help</a>
+                </div>
+                <div class="col install">
+                    <h4>Install App</h4>
+                    <p>From the App Store or Google Play Store</p>
+                    <div class="row">
+                        <img src="/img/app.png" alt="">
+                        <img src="/img/play.png" alt="">
+                    </div>
+                    <p>Secured Payments Gateways</p>
+                    <img src="/img/pay.png" alt="">
+                </div>
+                <div class="copyright">
+                    <p>@2023 Project 1 Assignment</p>
+                    <p>Thando Tinto 221482210 </p>
+                    <p>Siya Rasmeni 222906073 </p>
+                    <p>Yvonne Mthiyane 222530723 </p>
+                    <P>Sinesipho Mhlawuli 221110666 </P>
+                    <p>Asemahle Fanyana 221754997</p>
+                </div>
+            </footer>
+        </div>
+        <div class="cart-container" id="cart-cont">
+        </div>
+    </div>
+<script src="/java/home.js"></script>
+</body>
+</html>

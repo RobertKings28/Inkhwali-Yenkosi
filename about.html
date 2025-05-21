@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick & Mortar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="nav">
+        <div class="socials">
+            <a href="https://www.facebook.com/profile.php?id=100069447891074" target="_blank"><i class='bx bxl-facebook-circle bx-md bxh'></i></a>
+            <i class='bx bxl-instagram bx-md bxh' ></i>
+            <i class='bx bxl-twitter bx-md bxh' ></i>
+        </div>
+        <div class="logo">
+            <h2>Inkhwali</h2>
+            <a href="home.html"><img src="img/logo.png" alt=""></a>
+            <h2>Yenkosi</h2>
+        </div>
+        <div class="hamburger">
+            <div class="mobile">
+                <i class='bx bx-menu-alt-right bx-md bxh' id="bar" onclick="openMenu()"></i>
+                <i class='bx bx-shopping-bag bx-md bxh cart-icon' id="bag" onclick="openCart()"><p class="cart-count">0</p></i>
+            </div>
+            <ul class="navbar" id="nav">
+                <i id="close" class='bx bx-chevron-left-square' onclick="closeMenu()"></i>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About the leather</a></li>
+                <li><a href="diy.html">DIY Methods</a></li>
+                <li><a href="b&m.html">Brick & Mortar</a></li>
+                <li><a href="shopnow.html">Shop Now</a></li>
+            </ul>
+            <ul class="cart" id="nav-cart">
+                <h2 class="cart-title">Cart Items</h2>
+                <div class="cart-content">
+                    <p id="empty-cart">Your cart is empty.</p>
+                </div>
+                <div class="total">
+                    <p class="total-title">Total</p>
+                    <span class="total-price">R0.00</span>
+                </div>
+                <div class="cart-btn">
+                    <a href="checkout.html"><button>Checkout</button></a>
+                </div>
+                <i class='bx bx-x bx-md' onclick="closeCart()" id="cart-close"></i>
+            </ul>
+        </div>
+    </section>
+    <div class="info">
+        <div class="all-info" id="info-all">
+            <section class="pg-hd-abt">
+                <h2>#About the Leather</h2>
+                <p>Our Brick & Mortar store offers a unique shopping experience where you can interact with our knowledgeable staff who are passionate about fashion.</p>
+            </section>
+            <section class="abt" id="section-p1" >
+                <h2>About</h2>
+                <p>Welcome to Nkwali Yenkosi's "About the Leather" web page! Here, we delve into the fascinating world of leather and how it brings a touch of timeless elegance to your wardrobe.</p>
+        
+                    <p>Leather has always been a symbol of style and sophistication, and at Nkwali Yenkosi, we are passionate about delivering the finest quality leather clothing and accessories. Our team of skilled artisans handcraft each piece with meticulous attention to detail, ensuring that every item is a work of art.</p>
+                    
+                    <p>From luxurious leather jackets to stylish handbags and accessories, our collection showcases the versatility and enduring appeal of this remarkable material. We source our leather from reputable suppliers who adhere to strict ethical and sustainable practices, ensuring that you can enjoy our products with a clear conscience.</p>
+                    
+                    <p>Whether you're looking for a classic leather trench coat or a chic black leather dress, our range has something for everyone. Explore our collection and discover the perfect piece to express your unique style and personality.</p>
+                    
+                    <p>At Nkwali Yenkosi, we believe that fashion is not just about following trends but about embracing your individuality. Our knowledgeable staff is always on hand to offer personalized styling advice and help you curate a wardrobe that reflects your own personal flair.
+                    </p>
+                    <p>We invite you to visit our brick and mortar store, where you can experience the tactile luxury of our leather creations firsthand. Immerse yourself in a truly unique shopping experience, surrounded by a carefully curated selection of clothing and accessories that exude elegance and sophistication.
+                    
+                        Stay connected with us through social media to stay updated on the latest arrivals, styling tips, and exclusive promotions. Follow us on Facebook, Instagram, and Twitter to be a part of the Nkwali Yenkosi community.</p>
+                    
+                    <p>Thank you for choosing Nkwali Yenkosi, where the allure of leather meets timeless style.</p>
+            </section>
+            <section class="newsletter section-m1" id="section-p1">
+                <div class="newstext">
+                    <h4>Sign up for Newsletter</h4>
+                    <p>Get E-mail updates about our latest shop and <span>special Offers</span></p>
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Your email address">
+                    <button class="normal">Sign Up</button>
+                </div>
+            </section>
+            <footer id="section-p1">
+                <div class="col">
+                    <img class="logo" src="img/logo.png" alt="logo">
+                    <h4>Contact</h4>
+                    <p><strong>Address:</strong> 4 Melkhout street, Delft South, Cape Town, 7100</p>
+                    <p><strong>Phone: </strong>+27 76 585 6217</p>
+                    <p><strong>Hours: </strong> 09:00 - 19:00 Mon-Sat</p>
+                    <div class="follow">
+                        <h4>Follow Us</h4>
+                        <div class="icons">
+                            <i class='bx bxl-facebook-circle bx-sm'></i>
+                            <i class='bx bxl-instagram bx-sm' ></i>
+                            <i class='bx bxl-twitter bx-sm' ></i>
+                            <i class='bx bxl-pinterest bx-sm' ></i>
+                            <i class='bx bxl-youtube bx-sm' ></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4>Inkhwali Yenkosi</h4>
+                    <a href="">Home</a>
+                    <a href="">About the leather</a>
+                    <a href="">DIY Methods</a>
+                    <a href="">Brick & Mortar</a>
+                    <a href="">Shop Now</a>
+                </div>
+                <div class="col">
+                    <h4>My Account</h4>
+                    <a href="">Sign In</a>
+                    <a href="">View Cart</a>
+                    <a href="">My Wishlist</a>
+                    <a href="">Track My Order</a>
+                    <a href="">Help</a>
+                </div>
+                <div class="col install">
+                    <h4>Install App</h4>
+                    <p>From the App Store or Google Play Store</p>
+                    <div class="row">
+                        <img src="/img/app.png" alt="">
+                        <img src="/img/play.png" alt="">
+                    </div>
+                    <p>Secured Payments Gateways</p>
+                    <img src="/img/pay.png" alt="">
+                </div>
+                <div class="copyright">
+                    <p>@2023 Project 1 Assignment</p>
+                    <p>Thando Tinto 221482210 </p>
+                    <p>Siya Rasmeni 222906073 </p>
+                    <p>Yvonne Mthiyane 222530723 </p>
+                    <P>Sinesipho Mhlawuli 221110666 </P>
+                    <p>Asemahle Fanyana 221754997</p>
+                </div>
+            </footer>
+        </div>
+        <div class="cart-container" id="cart-cont">
+        </div>
+    </div>
+<script src="/java/home.js"></script>
+</body>
+</html>
